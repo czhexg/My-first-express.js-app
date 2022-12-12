@@ -2,11 +2,11 @@ const express = require("express");
 const mailchimp = require("@mailchimp/mailchimp_marketing");
 
 mailchimp.setConfig({
-    apiKey: "54421773d35060b62c638975a020e3a4-us21",
-    server: "us21",
+    apiKey: "YOUR API KEY",
+    server: "YOUR SERVER",
 });
 
-const listId = "c839a3f34e";
+const listId = "YOUR LIST ID";
 
 const app = express();
 
